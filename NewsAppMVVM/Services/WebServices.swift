@@ -8,7 +8,7 @@
 import Foundation
 class WebServices {
     
-    func getArticles(url: URL, completion: @escaping([Any]?) -> ()) {
+    func getArticles(url: URL, completion: @escaping([Article]?) -> ()) {
         let session = URLSession.shared
         
         let task = session.dataTask(with: url) { data, resp, mistake in
@@ -17,7 +17,8 @@ class WebServices {
                 completion(nil)
             }
             if let info = data {
-                print(data)
+                let list = try? JSONDecoder().decode(ArticleList.self, from: info)
+                print(list ?? "Whoops Empty data")
                 
             }
         }
