@@ -13,6 +13,7 @@
 		9541AA032A048DB00032A467 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9541AA012A048DB00032A467 /* Main.storyboard */; };
 		9541AA052A048DB10032A467 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9541AA042A048DB10032A467 /* Assets.xcassets */; };
 		9541AA082A048DB10032A467 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9541AA062A048DB10032A467 /* LaunchScreen.storyboard */; };
+		9541AA112A04906F0032A467 /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9541AA102A04906F0032A467 /* WebServices.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		9541AA042A048DB10032A467 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9541AA072A048DB10032A467 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9541AA092A048DB10032A467 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9541AA102A04906F0032A467 /* WebServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServices.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		9541A9FA2A048DB00032A467 /* NewsAppMVVM */ = {
 			isa = PBXGroup;
 			children = (
+				9541AA0F2A0490640032A467 /* Services */,
 				9541A9FB2A048DB00032A467 /* AppDelegate.swift */,
 				9541A9FD2A048DB00032A467 /* SceneDelegate.swift */,
 				9541A9FF2A048DB00032A467 /* NewsListVC.swift */,
@@ -65,6 +68,14 @@
 				9541AA092A048DB10032A467 /* Info.plist */,
 			);
 			path = NewsAppMVVM;
+			sourceTree = "<group>";
+		};
+		9541AA0F2A0490640032A467 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9541AA102A04906F0032A467 /* WebServices.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +151,7 @@
 			files = (
 				9541AA002A048DB00032A467 /* NewsListVC.swift in Sources */,
 				9541A9FC2A048DB00032A467 /* AppDelegate.swift in Sources */,
+				9541AA112A04906F0032A467 /* WebServices.swift in Sources */,
 				9541A9FE2A048DB00032A467 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
