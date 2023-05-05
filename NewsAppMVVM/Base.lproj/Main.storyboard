@@ -70,6 +70,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="News" id="2pa-mL-u9e"/>
+                    <connections>
+                        <outlet property="table" destination="db3-en-slN" id="Y1w-Bn-1bF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

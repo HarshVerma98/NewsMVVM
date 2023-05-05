@@ -17,9 +17,9 @@ class WebServices {
                 completion(nil)
             }
             if let info = data {
-                let list = try? JSONDecoder().decode(ArticleList.self, from: info)
+                let list = try! JSONDecoder().decode(ArticleList.self, from: info)
                 print(list ?? "Whoops Empty data")
-                
+                completion(list.articles)
             }
         }
         task.resume()

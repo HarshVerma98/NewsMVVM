@@ -12,6 +12,12 @@ struct ArticleListViewModel {
 }
 
 extension ArticleListViewModel {
+    
+    var numberOfSections: Int {
+        return 1
+    }
+    
+    
     func rowsInSection(_ section: Int) -> Int {
         return self.article.count
     }
