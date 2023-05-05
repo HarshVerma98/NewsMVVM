@@ -16,6 +16,7 @@
 		9541AA112A04906F0032A467 /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9541AA102A04906F0032A467 /* WebServices.swift */; };
 		9541AA142A04930B0032A467 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9541AA132A04930B0032A467 /* Article.swift */; };
 		9541AA182A0494B20032A467 /* ArticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9541AA172A0494B20032A467 /* ArticleViewModel.swift */; };
+		9541AA1B2A049A8D0032A467 /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9541AA1A2A049A8D0032A467 /* ArticleTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		9541AA102A04906F0032A467 /* WebServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServices.swift; sourceTree = "<group>"; };
 		9541AA132A04930B0032A467 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		9541AA172A0494B20032A467 /* ArticleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewModel.swift; sourceTree = "<group>"; };
+		9541AA1A2A049A8D0032A467 /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		9541A9FA2A048DB00032A467 /* NewsAppMVVM */ = {
 			isa = PBXGroup;
 			children = (
+				9541AA192A049A640032A467 /* Custom Cells */,
 				9541AA162A0494930032A467 /* View Models */,
 				9541AA152A0493AF0032A467 /* Controllers */,
 				9541AA122A0493020032A467 /* Models */,
@@ -106,6 +109,14 @@
 				9541AA172A0494B20032A467 /* ArticleViewModel.swift */,
 			);
 			path = "View Models";
+			sourceTree = "<group>";
+		};
+		9541AA192A049A640032A467 /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				9541AA1A2A049A8D0032A467 /* ArticleTableViewCell.swift */,
+			);
+			path = "Custom Cells";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,6 +195,7 @@
 				9541AA112A04906F0032A467 /* WebServices.swift in Sources */,
 				9541AA182A0494B20032A467 /* ArticleViewModel.swift in Sources */,
 				9541A9FE2A048DB00032A467 /* SceneDelegate.swift in Sources */,
+				9541AA1B2A049A8D0032A467 /* ArticleTableViewCell.swift in Sources */,
 				9541AA142A04930B0032A467 /* Article.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
